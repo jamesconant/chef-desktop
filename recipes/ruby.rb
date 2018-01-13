@@ -34,7 +34,7 @@ node.default[:rbenv][:gems] = node[:rbenv][:rubies]
   .reduce({}, :merge)
 
 include_recipe 'ruby_build'
-include_recipe 'ruby_rbenv::system'
+# include_recipe 'ruby_rbenv::system'
 
 Gem::Version
 rbenv_global node[:rbenv].fetch(:rbenv_global, most_recent_ruby_version)

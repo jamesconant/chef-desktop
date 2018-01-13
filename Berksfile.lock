@@ -17,7 +17,7 @@ GRAPH
   compat_resource (12.10.6)
   debian (1.8.0)
     apt (< 3.0)
-  desktop (0.1.0)
+  desktop (0.1.1)
     apt (>= 0.0.0)
     ark (>= 0.0.0)
     debian (~> 1.8)

@@ -4,7 +4,7 @@ maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
 description      'Installs/Configures desktop'
 long_description 'Installs/Configures desktop'
-version          '0.1.0'
+version          '0.1.1'
 
 depends 'apt'
 depends 'ark'
